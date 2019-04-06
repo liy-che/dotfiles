@@ -1,0 +1,14 @@
+# CAEN
+Host caen
+  HostName login.engin.umich.edu
+  User liyche
+  ControlMaster auto
+  ControlPath ~/.ssh/_%r@%h:%p
+  ControlPersist 43200
+
+# Umich Gitlab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+
